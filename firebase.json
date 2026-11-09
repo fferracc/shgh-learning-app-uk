@@ -1,0 +1,50 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "Others/**",
+      "android/**",
+      "*.bat",
+      "*.ps1",
+      "*.md",
+      "app-updates/make_zip.py",
+      "app-updates/uk/config.json",
+      "private*/**",
+      "uk-app-debug.apk",
+      "tw-in.css",
+      "tw.config.js",
+      "vite.config.js",
+      "package*.json",
+      "index.html.bak-*"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/app-updates/**",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      },
+      {
+        "source": "/app-updates/**/latest.json",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+}

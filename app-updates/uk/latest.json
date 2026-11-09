@@ -1,0 +1,10 @@
+{
+    "version":  "2026.10.05.1352",
+    "url":  "https://shgh-lms1.web.app/app-updates/uk/bundle-2026.10.05.1352.zip",
+    "checksum":  "4dc64be92b4392cb181e1a1d8d2af9ca70a941ede4eb0b39db0060c7460a2bb1",
+    "notes":  "Updates keep arriving while a new app version is offered; Back button fixes",
+    "minNativeVersion":  "1.5",
+    "recommendedNativeVersion":  null,
+    "apkUrl":  "https://shgh-lms1.web.app/app-updates/uk/uk-app.apk",
+    "publishedAt":  "2026-10-05T12:52:20.2620884Z"
+}
